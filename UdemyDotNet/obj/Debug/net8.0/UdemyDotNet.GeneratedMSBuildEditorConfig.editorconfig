@@ -9,35 +9,35 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UdemyDotNet
 build_property.RootNamespace = UdemyDotNet
-build_property.ProjectDir = C:\Users\Timucin\Documents\GitHub\Repos-VS-Code\aspnetcore\UdemyDotNet\
+build_property.ProjectDir = C:\Users\Timucin\Documents\GitHub\.NET-MVC-Learnings\UdemyDotNet\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Timucin\Documents\GitHub\Repos-VS-Code\aspnetcore\UdemyDotNet
+build_property.MSBuildProjectDirectory = C:\Users\Timucin\Documents\GitHub\.NET-MVC-Learnings\UdemyDotNet
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Timucin/Documents/GitHub/Repos-VS-Code/aspnetcore/UdemyDotNet/Views/Home/Index.cshtml]
+[C:/Users/Timucin/Documents/GitHub/.NET-MVC-Learnings/UdemyDotNet/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Timucin/Documents/GitHub/Repos-VS-Code/aspnetcore/UdemyDotNet/Views/Meeting/Apply.cshtml]
+[C:/Users/Timucin/Documents/GitHub/.NET-MVC-Learnings/UdemyDotNet/Views/Meeting/Apply.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVldGluZ1xBcHBseS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Timucin/Documents/GitHub/Repos-VS-Code/aspnetcore/UdemyDotNet/Views/Meeting/Index.cshtml]
+[C:/Users/Timucin/Documents/GitHub/.NET-MVC-Learnings/UdemyDotNet/Views/Meeting/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVldGluZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Timucin/Documents/GitHub/Repos-VS-Code/aspnetcore/UdemyDotNet/Views/Meeting/List.cshtml]
+[C:/Users/Timucin/Documents/GitHub/.NET-MVC-Learnings/UdemyDotNet/Views/Meeting/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVldGluZ1xMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Timucin/Documents/GitHub/Repos-VS-Code/aspnetcore/UdemyDotNet/Views/Shared/_Layout.cshtml]
+[C:/Users/Timucin/Documents/GitHub/.NET-MVC-Learnings/UdemyDotNet/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Timucin/Documents/GitHub/Repos-VS-Code/aspnetcore/UdemyDotNet/Views/_ViewStart.cshtml]
+[C:/Users/Timucin/Documents/GitHub/.NET-MVC-Learnings/UdemyDotNet/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
