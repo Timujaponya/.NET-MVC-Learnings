@@ -11,24 +11,22 @@ public class CourseController : Controller
 {
     public IActionResult Index()
     {
-        var courses = new List<Course>
-        {
-            new Course { Id = 1, Title = "C#", Description = "C# Kursu", Duration = 30, Image = "1.jpg" },
-            new Course { Id = 2, Title = "ASP.NET", Description = "ASP.NET Kursu", Duration = 40, Image = "2.jpg" },
-            new Course { Id = 3, Title = "SQL Server", Description = "SQL Server Kursu", Duration = 20, Image = "3.jpg" }
-        };
+        var course = new Course{ Id = 1, Title = "C#", Description = "C# Kursu", Duration = 30, Image = "1.jpg" }; // Course modelini burada oluşturun veya veritabanından alın
+        return View(course);
+    }
 
-        return View(courses);
+    public IActionResult Details(int? id)
+    {
+        if (id == null)
+        {
+            return RedirectToAction("List","Course");
+        }
+        var course = Repository.GetById(id);
+
+        return View(course);
     }
     public IActionResult List()
     {
-        var courses = new List<Course>
-        {
-            new Course { Id = 1, Title = "C#", Description = "C# Kursu", Duration = 30, Image = "1.jpg" },
-            new Course { Id = 2, Title = "ASP.NET", Description = "ASP.NET Kursu", Duration = 40, Image = "2.jpg" },
-            new Course { Id = 3, Title = "SQL Server", Description = "SQL Server Kursu", Duration = 20, Image = "3.jpg" }
-        };
-
-        return View("CourseList", courses);
+        return View("CourseList", Repository.Courses);
     }
 }
